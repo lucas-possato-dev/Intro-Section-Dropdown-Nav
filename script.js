@@ -1,10 +1,3 @@
-
-Simplificação de código.
-
-
-Lucas Possato
-Simplifique o código sem que ele perca sua funcionalidade:
-
 const modalMenu = document.querySelector('.modal_menu');
 const buttonOpen = document.querySelector('.open');
 const buttonClose = document.querySelector('.close_img');
