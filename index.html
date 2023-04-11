@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+
+<body>
+
+  <main class="container">
+    <header class="header">
+
+      <img class="logo_mobile" src="/images/logo.svg" alt="">
+      <div class="menu_desktop_container">
+        <img class="logo_desk" src="/images/logo.svg" alt="">
+        <div class="menu_desktop">
+          <div>
+            <span id="features_desk" class="title_features">Features <img id="arrow_desk_features" src="/images/icon-arrow-down.svg" alt=""></span>
+            <div class="features_menu_desktop">
+              <span><img src="/images/icon-todo.svg" alt=""><a href="/">Todo List</a></span>
+              <span><img src="/images/icon-calendar.svg" alt=""><a href="/">Calendar</a></span>
+              <span><img src="/images/icon-reminders.svg" alt=""><a href="/">Reminders</a></span>
+              <span><img src="/images/icon-planning.svg" alt=""><a href="/">Planning</a></span>
+            </div>
+          </div>
+          <div>
+            <span id="company_desk" class="title_company">Company<img id="arrow_desk_company" src="/images/icon-arrow-down.svg" alt=""></span>
+            <div class="company_menu_desktop">
+              <span><a href="/">History</a></span>
+              <span><a href="/">Our Team</a></span>
+              <span><a href="/">Blog</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="careers_menu_desktop">
+          <span class="title"><a href="/">Careers</a></span>
+          <span class="title"><a href="/">About</a></span>
+        </div>
+      </div>
+      <div class="login_desktop">
+        <span><a href="/">Login</a></span>
+        <a href="/"><span class="register">Register</span></a>
+      </div>
+      <div>
+        <button class="open"><img src="/images/icon-menu.svg" alt=""></button>
+      </div>
+    </header>
+    <div class="modal_menu">
+      <button><img class="close_img" src="/images/icon-close-menu.svg" alt=""></button>
+      <div class="options">
+        <div class="menu_flex">
+          <span class="title">Features <img id="features" src="/images/icon-arrow-down.svg" alt=""></span>
+          <div class="features_menu">
+            <span><img src="/images/icon-todo.svg" alt=""><a href="/">Todo List</a></span>
+            <span><img src="/images/icon-calendar.svg" alt=""><a href="/">Calendar</a></span>
+            <span><img src="/images/icon-reminders.svg" alt=""><a href="/">Reminders</a></span>
+            <span><img src="/images/icon-planning.svg" alt=""><a href="/">Planning</a></span>
+          </div>
+          <span class="title">Company<img id="company" src="/images/icon-arrow-down.svg" alt=""></span>
+          <div class="company_menu">
+            <span><a href="/">History</a></span>
+            <span><a href="/">Our Team</a></span>
+            <span><a href="/">Blog</a></span>
+          </div>
+        </div>
+        <div class="careers_menu">
+          <span class="title"><a href="/">Careers</a></span>
+          <span class="title"><a href="/">About</a></span>
+        </div>
+        <div class="login">
+          <span><a href="/">Login</a></span>
+          <a href="/"><span class="register">Register</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero_container">
+      <picture>
+        <source media="(min-width:800px)" srcset="/images/image-hero-desktop.png">
+        <img src="/images/image-hero-mobile.png" alt="">
+      </picture>
+    </div>
+    <section class="info">
+      <h1>Make remote work</h1>
+
+      <p>Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.</p>
+
+      <button>Learn more</button>
+    </section>
+    <section class="clients">
+      <div>
+        <img src="/images/client-databiz.svg" alt="">
+      </div>
+      <div>
+        <img src="/images/client-audiophile.svg" alt="">
+      </div>
+      <div>
+        <img src="/images/client-meet.svg" alt="">
+      </div>
+      <div>
+        <img src="/images/client-maker.svg" alt="">
+      </div>
+
+    </section>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/lucas-possato-dev">Lucas Possato</a>.
+    </div>
+  </main>
+  <script src="/script.js"></script>
+</body>
+
+</html>
