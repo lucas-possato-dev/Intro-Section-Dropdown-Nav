@@ -13,7 +13,6 @@ const arrowDeskFeatures = document.getElementById('arrow_desk_features');
 const arrowDeskCompany = document.getElementById('arrow_desk_company');
 const links = document.querySelectorAll('a');
 
-
 const handleClick = (event) => {
   event.preventDefault();
 }
@@ -57,7 +56,6 @@ const handleResize = () => {
     modalMenu.classList.remove('active');
   }
 }
-
 
 companyDesk.addEventListener('click', ShowCompanyDesk);
 featuresDesk.addEventListener('click', ShowFeaturesDesk);
